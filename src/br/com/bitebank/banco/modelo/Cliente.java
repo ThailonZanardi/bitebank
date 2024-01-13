@@ -24,13 +24,16 @@ public class Cliente {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+        // variavel que adiciona o cpf do cliente
     }
 
     public String getProfissao() {
         return this.profissao;
+
     }
 
     public void setProfissao(String profissao) {
         this.profissao = profissao;
+        // variavel que adiciona a profissão do cliente
     }
 }

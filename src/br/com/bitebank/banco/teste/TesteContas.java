@@ -12,10 +12,11 @@ public class TesteContas {
     }
 
     public static void main(String[] args) throws SaldoInsuficienteException {
-        int a = 3;
-        int b = a / 0; // vai dar erro
-        ContaCorrente outra = null;
-        ((ContaCorrente)outra).deposita(200.0);
+       // int a = 3;
+       // int b = a / 0; // vai dar erro
+        ContaCorrente outra = new ContaCorrente(888, 777);
+        //outra.deposita(200.0);
+        //System.out.println("Conta " + outra.getAgencia() + "deposita " + outra.deposita());
         ContaCorrente cc = new ContaCorrente(111, 111);
         cc.deposita(100.0);
         ContaPoupanca cp = new ContaPoupanca(222, 222);
